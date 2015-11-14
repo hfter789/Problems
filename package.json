@@ -1,0 +1,27 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "coding practice",
+  "main": "N/A",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.65.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hfter789/Problems.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hfter789/Problems/issues"
+  },
+  "homepage": "https://github.com/hfter789/Problems#readme"
+}
