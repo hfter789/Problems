@@ -1,0 +1,26 @@
+<head>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script>
+    // event listener is added to parent instead of each individual <li> tag
+    // as the event propagate up, parent will get it and perform actions
+    $('.parent-list').ready(function() {
+      this.addEventListener('click', function(e) {
+        // If it was a list item
+        if(e.target && e.target.nodeName == 'LI') {
+          // List item found!  Output the ID!
+          console.log('List item ', e.target.id.replace('post-',''), ' was clicked!');
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <ul id='parent-list'>
+    <li id='post-1'>Item 1</li>
+    <li id='post-2'>Item 2</li>
+    <li id='post-3'>Item 3</li>
+    <li id='post-4'>Item 4</li>
+    <li id='post-5'>Item 5</li>
+    <li id='post-6'>Item 6</li>
+  </ul>
+</body>
