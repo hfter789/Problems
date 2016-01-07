@@ -1,0 +1,11 @@
+Functional:
+  * no side effects
+  * increase readibility and maintainability
+  * easy to refactor
+  * easy to test and debug
+
+Imperative:
+  * focus on steps instead of what the computer will do. (C, C++, Java) 
+
+Declarative:
+  * focus on what computer should do instead of how to do it (SQL)
