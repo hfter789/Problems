@@ -49,7 +49,7 @@ function rotateRight(node) {
 
 // insert val into node
 function insert(node, val) {
-
+	// TODO: implement insert
 }
 
 module.exports = {
